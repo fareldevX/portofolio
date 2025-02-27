@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Portofolio Saya</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#skills">Keahlian</a></li>
+                    <li><a href="#projects">Proyek</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <p>Saya adalah seorang pengembang web yang bersemangat dengan keahlian dalam HTML, CSS, JavaScript, dan pengembangan aplikasi web. Saya suka membuat aplikasi yang interaktif dan mudah digunakan.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>Keahlian</h2>
+            <div class="skills-list">
+                <div class="skill">
+                    <h3>HTML</h3>
+                    <p>Pengalaman dalam membuat halaman web responsif menggunakan HTML5.</p>
+                </div>
+                <div class="skill">
+                    <h3>CSS</h3>
+                    <p>Keahlian dalam styling halaman web menggunakan CSS dan framework seperti Bootstrap.</p>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <p>Menggunakan JavaScript untuk membuat aplikasi web dinamis dan interaktif.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Proyek Saya</h2>
+            <div class="project-card">
+                <h3>Proyek 1</h3>
+                <p>Deskripsi singkat tentang proyek pertama saya yang menggunakan HTML, CSS, dan JavaScript.</p>
+                <button onclick="showAlert()">Lihat Proyek</button>
+            </div>
+            <div class="project-card">
+                <h3>Proyek 2</h3>
+                <p>Deskripsi singkat tentang proyek kedua saya.</p>
+                <button onclick="showAlert()">Lihat Proyek</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Kontak Saya</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Nama" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <textarea id="message" placeholder="Pesan" required></textarea>
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Portofolio Saya. Semua hak dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
